@@ -1,7 +1,7 @@
 # Computational Hydraulics
 
 Course site built with [Docusaurus](https://docusaurus.io/), deployed to GitHub Pages at
-https://rafikoulebsir.github.io/computational-hydraulics/.
+https://oulebsir-rafik.github.io/computational-hydraulics-/.
 
 Raw source material (lecture slide decks) lives in `courses/` and is not published — it's converted
 chapter by chapter into the `docs/` folder.
