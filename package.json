@@ -1,5 +1,5 @@
 {
-  "name": "tmp-claude-1000-home-rafikoulebsir-desktop-pi-dojo-course-building-398-a5529-adb0-4203-8-b36-82-efa58-c0459-scratchpad-docusaurus-scaffold",
+  "name": "computational-hydraulics",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -21,7 +21,6 @@
     "@easyops-cn/docusaurus-search-local": "^0.55.3",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
-    "katex": "^0.18.7",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
