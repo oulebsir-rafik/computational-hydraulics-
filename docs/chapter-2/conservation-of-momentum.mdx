@@ -1,0 +1,30 @@
+---
+sidebar_position: 4
+title: Conservation of Momentum
+---
+
+import NavierStokesExplorer from '@site/src/components/NavierStokesExplorer';
+
+# Conservation of Momentum
+
+If gravity and pressure forces are detailed, conservation of momentum in the $x$ direction yields:
+
+$$\rho\frac{Du}{Dt} = -\frac{\partial p}{\partial x} + \rho g_x + S_{F,x}$$
+
+In three dimensions, the equation becomes:
+
+$$\rho\frac{D\vec{u}}{Dt} = -\nabla p + \rho\vec{g} + \vec{S}_F$$
+
+After developing and rearranging the left-hand (material derivative) term, it becomes:
+
+$$\rho\frac{\partial \vec{u}}{\partial t} + \rho(\vec{u}\cdot\nabla)\vec{u} = -\nabla p + \rho\vec{g} + \vec{S}_F$$
+
+This is the **Navier-Stokes momentum equation** as used in this course: **local acceleration** plus **convective acceleration** on the left, balanced by the **pressure gradient**, **gravity**, and a lumped **friction/source term** on the right.
+
+## Explore the equation
+
+Click a term below to isolate its effect on the flow through an inclined venturi (a pipe that narrows and then widens again). The 3D scene shows only the vectors for the term you select, so you can see what each piece of the equation is actually doing to the water.
+
+<NavierStokesExplorer />
+
+This is an illustrative animation: the particle motion is scripted to look physically reasonable, not derived from solving the equation numerically. It's meant to build intuition for what each term represents, not to serve as a simulation result.

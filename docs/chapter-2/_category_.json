@@ -1,0 +1,8 @@
+{
+  "label": "Chapter 2: Differential Equations",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Differential equations and water-related problems: the conservation laws behind the Navier-Stokes equations, how flow PDEs are classified, and how they're solved."
+  }
+}
