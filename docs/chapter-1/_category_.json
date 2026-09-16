@@ -1,0 +1,8 @@
+{
+  "label": "Chapter 1: Introduction",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "An introduction to computational hydraulics: what mathematical models are, how they're classified, and the process of building and applying one."
+  }
+}
